@@ -21,8 +21,6 @@ from openai import OpenAI
 
 class Settings(BaseSettings):
     OPENAI_API_KEY: str = Field(validation_alias="OPENAI_API_KEY")
-    HUGGINGFACEHUB_API_TOKEN: str = Field(validation_alias="HUGGINGFACEHUB_API_TOKEN")
-
 
 
 
